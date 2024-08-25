@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&display=swap" rel="stylesheet">  
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header__logo" src="./assets/Logologo_alura.png" alt="" >
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="primer">
+                <textarea class="texto" name="Texto" id="texto" placeholder="Ingrese el texto"></textarea>
+                <div class="primer__footer">
+                    <div class="primer__img">
+                        <img src="./assets/Admiracion.png" alt="">
+                        <spam class="spam__texto">Solo letras minúsculas y sin acentos</spam>
+                    </div>
+                    <div class="primer__botones">
+                        <button class="boton__encriptar" id="botonEncriptar">Encriptar</button>
+                        <button class="boton__desencriptar" id="botonDesencriptar">Desencriptar</button>
+                    </div>
+                </div>    
+            </div>
+            <div id="segunda" class="segunda ajustar">
+                <img class="muneco " id="muneco" src="./assets/Muñecomuñeco_no se encuentra .png" alt="">
+                <textarea class="izquierda__titulo" id="izquierdaTitulo" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p class="izquierda__texto" id="izquierdaTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="boton__Copiar oculto" id="botonCopiar">Copiar</button>
+            </div>
+        </div>
+    </main>
+    
+<script src="./app.js"></script>
+</body>
+</html>
